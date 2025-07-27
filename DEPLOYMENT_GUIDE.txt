@@ -1,0 +1,49 @@
+PNEUMONIA DETECTION SYSTEM - DEPLOYMENT GUIDE
+============================================
+
+Version: 1.0
+Created: 2025-07-26 19:31:55
+Model Performance: 92.9% accuracy
+
+QUICK START:
+-----------
+1. Extract this zip file to your desired location
+2. Install requirements: pip install -r requirements.txt
+3. Test the system: python sample_usage.py
+4. For CLI usage: python pneumonia_predictor.py <image_path>
+
+DIRECTORY STRUCTURE:
+-------------------
+pneumonia_detection/
+├── models/                 # Trained model files (5 folds)
+├── config/                 # Configuration files
+├── docs/                   # Documentation and reports
+├── results/                # Validation results
+├── pneumonia_predictor.py  # Main prediction script
+├── sample_usage.py         # Example usage
+├── requirements.txt        # Python dependencies
+└── README.md              # Project overview
+
+USAGE EXAMPLES:
+--------------
+# Single image prediction
+python pneumonia_predictor.py chest_xray.jpg
+
+# Batch prediction on folder
+python pneumonia_predictor.py /path/to/images/ -o results.json
+
+# Verbose output
+python pneumonia_predictor.py image.jpg -v
+
+# Using different model directory
+python pneumonia_predictor.py image.jpg --model-dir /custom/path/
+
+SUPPORT:
+--------
+For issues or questions, refer to docs/final_report.md
+
+IMPORTANT NOTES:
+---------------
+- This model is for screening purposes only
+- Always combine with clinical judgment
+- Not a replacement for radiologist interpretation
