@@ -2,8 +2,6 @@
 
 This is a clinical-grade deep learning ensemble AI model for detecting pneumonia from chest X-ray images, achieving 92.87% accuracy with ensemble methods and rigorous patient-based validation.
 
-![Pneumonia Detection Demo](docs/images/demo_prediction.png)
-
 ## 🎯 Key Features
 
 - **High Accuracy**: 92.87% (±1.5%) validation accuracy with 95% CI: [90.11%, 95.63%]
@@ -121,8 +119,8 @@ pneumonia-detection/
 
 ## 📈 Results Visualization
 
-![Description](images/results1.png)
-![Description](images/results2.png)
+![K-Fold Cross-Validation Results ](docs/results1.png)
+![Overall Model Performance Summary](docs/results2.png)
 
 ## 🏥 Clinical Guidelines
 
@@ -196,7 +194,7 @@ For questions or collaborations:
 If you use this work in your research, please cite:
 
 ```bibtex
-@software{pneumonia_detection_2024,
+@AI model{pneumonia_detection_2024,
   author = {Precious Thom},
   title = {Pneumonia Detection AI model Using Deep Learning},
   year = {2025},
@@ -207,7 +205,7 @@ If you use this work in your research, please cite:
 
 ## ⚠️ Disclaimer
 
-This software is for research and educational purposes only. It is not intended for clinical diagnosis or treatment. Always consult qualified healthcare professionals for medical decisions.
+This AI model is for research and educational purposes only. It is not intended for clinical diagnosis or treatment. Always consult qualified healthcare professionals for medical decisions.
 
 ---
 
