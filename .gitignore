@@ -139,7 +139,7 @@ datasets/
 # Image files (if not needed in repo)
 *.jpg
 *.jpeg
-*.png
+
 *.gif
 *.bmp
 *.tiff
