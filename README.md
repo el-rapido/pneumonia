@@ -194,7 +194,7 @@ For questions or collaborations:
 If you use this work in your research, please cite:
 
 ```bibtex
-@AI model{pneumonia_detection_2024,
+@AI model{pneumonia_detection_2025,
   author = {Precious Thom},
   title = {Pneumonia Detection AI model Using Deep Learning},
   year = {2025},
