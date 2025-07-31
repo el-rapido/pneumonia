@@ -187,7 +187,7 @@ This project is licensed under the NonCommercial 4.0 International License - see
 For questions or collaborations:
 
 - **GitHub Issues**: [Create an issue](https://github.com/el-rapido/pneumonia-detection/issues)
-- **Email**: preciousekarithom@gmail.com
+- **Email**: thom@el-rapido.dev
 
 ## 📚 Citation
 
